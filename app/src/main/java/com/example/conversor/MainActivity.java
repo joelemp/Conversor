@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     public void temp(View v)
     {
         Intent sig=new Intent(this,temp.class);
-        sig.putExtra("TITULOT","TEMPERATURA");
+        sig.putExtra("TITULOT","TEMPERATURA-");
              startActivity(sig);
     }
     public void area(View v)
